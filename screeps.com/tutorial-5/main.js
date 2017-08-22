@@ -4,7 +4,7 @@ var roleBuilder = require('role.builder');
 
 module.exports.loop = function () {
 
-    var tower = Game.getObjectById('517d253af22cbfae41dfb857');
+    var tower = Game.getObjectById('0846ad52cd24ca7949f2454a');
     if(tower) {
         var closestDamagedStructure = tower.pos.findClosestByRange(FIND_STRUCTURES, {
             filter: (structure) => structure.hits < structure.hitsMax
